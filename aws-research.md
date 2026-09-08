@@ -41,4 +41,4 @@ AWS is commonly used for:
 
 
 
-![AWS Homepage](screenshots/aws-homepage.png)
+

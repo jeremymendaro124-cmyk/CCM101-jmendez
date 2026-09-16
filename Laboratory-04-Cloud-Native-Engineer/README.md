@@ -14,33 +14,59 @@ This laboratory introduces Docker and containerization. It demonstrates deployin
 
 ## Docker Commands Executed
 
-Docker Commands Executed
-Check Docker Installation
+### Check Docker Installation
+
+```bash
 docker --version
+```
 
-Check Docker Environment
+### Check Docker Environment
+
+```bash
 docker info
+```
 
-Download Nginx
+### Download Nginx
+
+```bash
 docker pull nginx
+```
 
-Run Nginx
+### Run Nginx
+
+```bash
 docker run -d -p 8080:80 --name nginx-server nginx
+```
 
-Test Nginx
+### Test Nginx
+
+```bash
 curl http://localhost:8080
+```
 
-List Running Containers
+### List Running Containers
+
+```bash
 docker ps
+```
 
-Stop the Container
+### Stop the Container
+
+```bash
 docker stop nginx-server
+```
 
-View All Containers
+### View All Containers
+
+```bash
 docker ps -a
+```
 
-Remove the Container
+### Remove the Container
+
+```bash
 docker rm nginx-server
+```
 
 
 ## Skills Learned

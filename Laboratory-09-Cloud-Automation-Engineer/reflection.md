@@ -1,1 +1,11 @@
+# Mission Reflection
 
+Completing Laboratory 09 helped me understand how automation makes cloud computing more efficient and reliable. When managing hundreds of cloud servers, automation is critical because it reduces repetitive manual tasks, saves time, and ensures that operations follow consistent procedures. Instead of creating backups manually on every server, administrators can use scripts and scheduled jobs to perform tasks automatically.
+
+However, automation also has potential dangers. A destructive typo or incorrect command inside a script could delete important files or damage configurations across 1,000 servers if executed everywhere. This is why scripts should be tested in a safe environment, reviewed carefully, and monitored before being deployed on multiple servers. Administrators should also maintain backups and use access controls to reduce the impact of mistakes.
+
+Writing a Bash script was different from creating a Docker Compose YAML file in Mission 6. A Bash script contains commands that execute step by step to perform tasks such as creating directories and compressing files. In contrast, Docker Compose YAML describes how related containers and services should be configured and connected. Both tools support automation, but they serve different purposes in cloud operations.
+
+Reviewing my GitHub repository from Laboratory 1 to Laboratory 9 shows how my understanding of cloud computing has developed throughout the semester. I have progressed from learning basic cloud infrastructure to working with containers, storage, deployment, security, and automation. I now understand that cloud computing involves more than simply running applications; it also requires maintaining security, reliability, and efficient resource management. Documenting each mission has also helped me build a portfolio of practical skills.
+
+Among the roles I explored, I particularly enjoyed the Cloud Security Engineer role because it taught me how firewall rules and access restrictions protect servers. I also found the Cloud Automation Engineer role valuable because it showed me how scripts and scheduled tasks simplify routine operations. Overall, these missions improved my technical knowledge, problem-solving skills, and confidence in working with cloud technologies.
